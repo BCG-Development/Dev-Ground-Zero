@@ -61,6 +61,7 @@ class DevGroundZeroBot(commands.Bot):
                 try:
                     self.load_extension(f'Cogs.{filename[:-3]}')
                     print(f'{Fore.GREEN}Loaded extension: {filename[:-3]}{Style.RESET_ALL}')
+                    print(f'{Fore.BLUE}==============================={Style.RESET_ALL}')
                     logging.info(f'Loaded extension: {filename[:-3]}')
                 except Exception as e:
                     print(f'{Fore.RED}Failed to load extension: {filename[:-3]}{Style.RESET_ALL}')
