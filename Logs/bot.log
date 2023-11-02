@@ -1,0 +1,15 @@
+2023-11-02 10:58:43,480 [WARNING]: PyNaCl is not installed, voice will NOT be supported
+2023-11-02 10:58:43,481 [INFO]: logging in using static token
+2023-11-02 10:58:43,949 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2023-11-02 10:58:44,181 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-954h",{"micros":128644,"calls":["id_created",{"micros":900,"calls":[]},"session_lookup_time",{"micros":298,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-2-213",{"micros":125889,"calls":["start_session",{"micros":39364,"calls":["discord-api-76889b6c5-k7v55",{"micros":34879,"calls":["get_user",{"micros":7092},"get_guilds",{"micros":3385},"send_scheduled_deletion_message",{"micros":12},"guild_join_requests",{"micros":814},"authorized_ip_coro",{"micros":11}]}]},"starting_guild_connect",{"micros":57,"calls":[]},"presence_started",{"micros":575,"calls":[]},"guilds_started",{"micros":79,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":85765,"calls":[]},"connect_finished",{"micros":85770,"calls":[]},"build_ready",{"micros":18,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":23,"calls":[]}]}]}] (Session ID: e5f5d9cbb8662aa98956613a8a7d4c40). Resume URL specified as wss://gateway-us-east1-d.discord.gg
+2023-11-02 10:58:46,200 [INFO]: Logged in as: Dev Ground Zero#4194
+2023-11-02 10:58:46,200 [INFO]: Running on: Windows 10 (10.0.22621)
+2023-11-02 10:58:46,200 [INFO]: Python: 3.10.0
+2023-11-02 10:58:46,200 [INFO]: Bot is ready!
+2023-11-02 10:58:46,437 [INFO]: Loaded Extension: moderation
+2023-11-02 10:58:46,440 [INFO]: Loaded Extension: ping
+2023-11-02 10:58:46,451 [INFO]: Loaded Extension: welcome
+2023-11-02 11:38:37,379 [INFO]: Websocket closed with WSCloseCode.ABNORMAL_CLOSURE, attempting a reconnect.
+2023-11-02 11:38:37,379 [INFO]: Got a request to RESUME the websocket.
+2023-11-02 11:38:37,568 [INFO]: Shard ID None has sent the RESUME payload.
+2023-11-02 11:38:37,690 [INFO]: Shard ID None has successfully RESUMED session e5f5d9cbb8662aa98956613a8a7d4c40 under trace ["gateway-prd-us-east1-d-nzwq",{"micros":11828,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":6989,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-2-213",{"micros":26}]}].
