@@ -39,7 +39,7 @@ class DevGroundZeroBot(commands.Bot):
         print(f'{Fore.BLUE}==============================={Style.RESET_ALL}')
         
         # Get the update channel by ID and send an embed message
-        channel = self.get_channel(int(os.getenv('UPDATE_CHANNEL')))
+        channel = self.get_channel(int(os.getenv('UPDATE_CHANNEL_ID')))
         update_embed = nextcord.Embed(title='Bot is ready!',
                                       description=f'Logged in as: {self.user.name}#{self.user.discriminator}',
                                       color=nextcord.Color.dark_green())
