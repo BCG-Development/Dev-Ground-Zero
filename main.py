@@ -1,5 +1,4 @@
 import logging
-import asyncio
 import os
 import platform
 import nextcord
@@ -54,31 +53,17 @@ class DevGroundZeroBot(commands.Bot):
         # Set the bot's presence (activity)
         await self.change_presence(activity=nextcord.Activity(type=nextcord.ActivityType.watching, name='The DevGroundZero Discord!'))
         
-    async def load_cogs(self):
         # Load all cogs from the Cogs directory
         for filename in os.listdir('./Cogs'):
             if filename.endswith('.py'):
                 try:
                     self.load_extension(f'Cogs.{filename[:-3]}')
-                    print(f'{Fore.GREEN}Loaded extension: {filename[:-3]}{Style.RESET_ALL}')
+                    print(f'{Fore.GREEN}Loaded Extension: {filename[:-3]}{Style.RESET_ALL}')
                     print(f'{Fore.BLUE}==============================={Style.RESET_ALL}')
-                    logging.info(f'Loaded extension: {filename[:-3]}')
+                    logging.info(f'Loaded Extension: {filename[:-3]}')
                 except Exception as e:
-                    print(f'{Fore.RED}Failed to load extension: {filename[:-3]}{Style.RESET_ALL}')
-                    logging.error(f'Failed to load extension: {filename[:-3]}: {str(e)}')
+                    print(f'{Fore.RED}Failed to load Extension: {filename[:-3]}{Style.RESET_ALL}')
+                    logging.error(f'Failed to load Extension: {filename[:-3]}: {str(e)}')
         
-    async def run_bot(self):
-        try:
-            # Start the bot with the provided BOT_TOKEN from environment variables
-            await self.load_cogs()
-            await self.start(os.getenv('BOT_TOKEN'))
-        except Exception as e:
-            # Log any exceptions that occur
-            logging.error(f'An error occurred: {str(e)}')
-
-if __name__ == '__main__':
-    # Create an instance of the DevGroundZeroBot class
-    client = DevGroundZeroBot()
-    
-    # Run the bot asynchronously using asyncio
-    asyncio.run(client.run_bot())
+client = DevGroundZeroBot()
+client.run(os.getenv('BOT_TOKEN'))
