@@ -22,7 +22,7 @@ logging.basicConfig(filename='Logs/bot.log', level=logging.INFO, format='%(ascti
 # Define a custom bot class that inherits from commands.Bot
 class DevGroundZeroBot(commands.Bot):
     def __init__(self):
-        super().__init__(intents=nextcord.Intents.all(), help_command=None)
+        super().__init__(command_prefix='!', intents=nextcord.Intents.all(), help_command=None)
         self.guild_id = int(os.getenv('GUILD_ID'))
         
     async def on_ready(self):

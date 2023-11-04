@@ -14,7 +14,7 @@ class Ping(commands.Cog):
         self.client = client
         self.dgz_member_role_id = int(os.getenv('DGZ_MEMBER_ROLE_ID'))
         
-    @nextcord.slash_command(name='ping', description='Check the bot\'s ping.')
+    @nextcord.slash_command(name='ping', description='Check the bot\'s ping.', guild_ids=[int(os.getenv('GUILD_ID'))])
     @application_checks.has_role('DGZ Members')
     async def ping(self, interaction: nextcord.Interaction):
         ping_embed = nextcord.Embed(title='Bot\'s Ping', color=nextcord.Color.dark_green())

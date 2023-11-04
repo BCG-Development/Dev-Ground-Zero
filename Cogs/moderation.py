@@ -18,7 +18,7 @@ class Moderation(commands.Cog):
     async def on_ready(self):
         print(f'{Fore.GREEN}Moderation Cog is ready!{Style.RESET_ALL}')       
         
-    @nextcord.slash_command(name='purge', description='Purge messages from a channel')
+    @nextcord.slash_command(name='purge', description='Purge messages from a channel', guild_ids=[int(os.getenv('GUILD_ID'))])
     @application_checks.has_role('Server Moderator')
     async def purge(self, interaction: nextcord.Interaction, amount: int):
         purge_embed = nextcord.Embed(title='Purge', description=f'Purged {amount} messages from {interaction.channel.mention}', color=nextcord.Color.dark_green())
