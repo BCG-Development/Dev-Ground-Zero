@@ -52,7 +52,7 @@ class DevGroundZeroBot(commands.Bot):
         
         # Set the bot's presence (activity)
         await self.change_presence(activity=nextcord.Activity(type=nextcord.ActivityType.watching, name='The DevGroundZero Discord!'))
-        
+                
         # Load all cogs from the Cogs directory
         for filename in os.listdir('./Cogs'):
             if filename.endswith('.py'):
