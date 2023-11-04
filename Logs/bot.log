@@ -1,66 +1,33 @@
-2023-11-04 21:24:37,999 [WARNING]: PyNaCl is not installed, voice will NOT be supported
-2023-11-04 21:24:38,000 [INFO]: logging in using static token
-2023-11-04 21:24:38,529 [INFO]: Shard ID None has sent the IDENTIFY payload.
-2023-11-04 21:24:38,789 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-vqk4",{"micros":115156,"calls":["id_created",{"micros":1852,"calls":[]},"session_lookup_time",{"micros":379,"calls":[]},"session_lookup_finished",{"micros":18,"calls":[]},"discord-sessions-prd-2-164",{"micros":112190,"calls":["start_session",{"micros":80311,"calls":["discord-api-5c74cfdfbf-hj82w",{"micros":75139,"calls":["get_user",{"micros":8136},"get_guilds",{"micros":11050},"send_scheduled_deletion_message",{"micros":14},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":14}]}]},"starting_guild_connect",{"micros":66,"calls":[]},"presence_started",{"micros":2962,"calls":[]},"guilds_started",{"micros":132,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":28661,"calls":[]},"connect_finished",{"micros":28667,"calls":[]},"build_ready",{"micros":20,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":28,"calls":[]}]}]}] (Session ID: 740d68afb14d5e17e9e189325ce9bc6d). Resume URL specified as wss://gateway-us-east1-c.discord.gg
-2023-11-04 21:24:40,815 [INFO]: Logged in as: Dev Ground Zero#4194
-2023-11-04 21:24:40,815 [INFO]: Running on: Windows 10 (10.0.22621)
-2023-11-04 21:24:40,816 [INFO]: Python: 3.10.0
-2023-11-04 21:24:40,817 [INFO]: Bot is ready!
-2023-11-04 21:24:41,111 [INFO]: Loaded Extension: moderation
-2023-11-04 21:24:41,113 [INFO]: Loaded Extension: ping
-2023-11-04 21:24:41,115 [INFO]: Loaded Extension: welcome
-2023-11-04 22:03:47,979 [WARNING]: PyNaCl is not installed, voice will NOT be supported
-2023-11-04 22:03:47,979 [INFO]: logging in using static token
-2023-11-04 22:03:48,401 [INFO]: Shard ID None has sent the IDENTIFY payload.
-2023-11-04 22:03:48,590 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-xdwx",{"micros":89123,"calls":["id_created",{"micros":1619,"calls":[]},"session_lookup_time",{"micros":4181,"calls":[]},"session_lookup_finished",{"micros":17,"calls":[]},"discord-sessions-prd-2-252",{"micros":76791,"calls":["start_session",{"micros":49994,"calls":["discord-api-5c74cfdfbf-7gq4n",{"micros":43792,"calls":["get_user",{"micros":7295},"get_guilds",{"micros":5818},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":11}]}]},"starting_guild_connect",{"micros":60,"calls":[]},"presence_started",{"micros":16727,"calls":[]},"guilds_started",{"micros":104,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":9851,"calls":[]},"connect_finished",{"micros":9857,"calls":[]},"build_ready",{"micros":21,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":23,"calls":[]}]}]}] (Session ID: 3f40254f3be398b5da4e46cffcd60c30). Resume URL specified as wss://gateway-us-east1-d.discord.gg
-2023-11-04 22:03:50,618 [INFO]: Logged in as: Dev Ground Zero#4194
-2023-11-04 22:03:50,619 [INFO]: Running on: Windows 10 (10.0.22621)
-2023-11-04 22:03:50,619 [INFO]: Python: 3.10.0
-2023-11-04 22:03:50,619 [INFO]: Bot is ready!
-2023-11-04 22:03:50,851 [INFO]: Loaded Extension: moderation
-2023-11-04 22:03:50,861 [INFO]: Loaded Extension: ping
-2023-11-04 22:03:50,864 [INFO]: Loaded Extension: welcome
-2023-11-04 22:06:15,963 [WARNING]: PyNaCl is not installed, voice will NOT be supported
-2023-11-04 22:06:15,963 [INFO]: logging in using static token
-2023-11-04 22:06:16,354 [INFO]: Shard ID None has sent the IDENTIFY payload.
-2023-11-04 22:06:16,584 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-ts0x",{"micros":130862,"calls":["id_created",{"micros":1521,"calls":[]},"session_lookup_time",{"micros":2055,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-prd-2-68",{"micros":126150,"calls":["start_session",{"micros":91636,"calls":["discord-api-5c74cfdfbf-2w4c9",{"micros":86738,"calls":["get_user",{"micros":5666},"get_guilds",{"micros":36550},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":21}]}]},"starting_guild_connect",{"micros":65,"calls":[]},"presence_started",{"micros":1806,"calls":[]},"guilds_started",{"micros":117,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":32467,"calls":[]},"connect_finished",{"micros":32472,"calls":[]},"build_ready",{"micros":18,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":33,"calls":[]}]}]}] (Session ID: 7c3fef2a4b0c7a1c7f80f7ef2b8fcefc). Resume URL specified as wss://gateway-us-east1-c.discord.gg
-2023-11-04 22:06:18,588 [INFO]: Logged in as: Dev Ground Zero#4194
-2023-11-04 22:06:18,588 [INFO]: Running on: Windows 10 (10.0.22621)
-2023-11-04 22:06:18,589 [INFO]: Python: 3.10.0
-2023-11-04 22:06:18,589 [INFO]: Bot is ready!
-2023-11-04 22:06:18,783 [INFO]: Loaded Extension: moderation
-2023-11-04 22:06:18,786 [INFO]: Loaded Extension: ping
-2023-11-04 22:06:18,788 [INFO]: Loaded Extension: welcome
-2023-11-04 22:14:29,853 [WARNING]: PyNaCl is not installed, voice will NOT be supported
-2023-11-04 22:14:29,853 [INFO]: logging in using static token
-2023-11-04 22:14:30,264 [INFO]: Shard ID None has sent the IDENTIFY payload.
-2023-11-04 22:14:30,486 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-0mzx",{"micros":118463,"calls":["id_created",{"micros":958,"calls":[]},"session_lookup_time",{"micros":3392,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-2-17",{"micros":113190,"calls":["start_session",{"micros":49620,"calls":["discord-api-5c74cfdfbf-fx9rr",{"micros":44496,"calls":["get_user",{"micros":12230},"get_guilds",{"micros":5011},"send_scheduled_deletion_message",{"micros":32},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":9}]}]},"starting_guild_connect",{"micros":79,"calls":[]},"presence_started",{"micros":38332,"calls":[]},"guilds_started",{"micros":91,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":25012,"calls":[]},"connect_finished",{"micros":25018,"calls":[]},"build_ready",{"micros":21,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":26,"calls":[]}]}]}] (Session ID: e644e673eeba0bedc17b6912d608b084). Resume URL specified as wss://gateway-us-east1-c.discord.gg
-2023-11-04 22:14:32,498 [INFO]: Logged in as: Dev Ground Zero#4194
-2023-11-04 22:14:32,498 [INFO]: Running on: Windows 10 (10.0.22621)
-2023-11-04 22:14:32,499 [INFO]: Python: 3.10.0
-2023-11-04 22:14:32,499 [INFO]: Bot is ready!
-2023-11-04 22:14:32,749 [INFO]: Loaded Extension: moderation
-2023-11-04 22:14:32,751 [INFO]: Loaded Extension: ping
-2023-11-04 22:14:32,753 [INFO]: Loaded Extension: welcome
-2023-11-04 22:16:55,576 [WARNING]: PyNaCl is not installed, voice will NOT be supported
-2023-11-04 22:16:55,576 [INFO]: logging in using static token
-2023-11-04 22:16:55,976 [INFO]: Shard ID None has sent the IDENTIFY payload.
-2023-11-04 22:16:56,285 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-28wk",{"micros":209492,"calls":["id_created",{"micros":1823,"calls":[]},"session_lookup_time",{"micros":1370,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-2-100",{"micros":205726,"calls":["start_session",{"micros":156803,"calls":["discord-api-5c74cfdfbf-dhfzq",{"micros":146044,"calls":["get_user",{"micros":24672},"get_guilds",{"micros":12033},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":790},"authorized_ip_coro",{"micros":10}]}]},"starting_guild_connect",{"micros":75,"calls":[]},"presence_started",{"micros":333,"calls":[]},"guilds_started",{"micros":105,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":48349,"calls":[]},"connect_finished",{"micros":48354,"calls":[]},"build_ready",{"micros":24,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":28,"calls":[]}]}]}] (Session ID: 893e3777f28c86f7c016a2f8652960ce). Resume URL specified as wss://gateway-us-east1-b.discord.gg
-2023-11-04 22:16:58,286 [INFO]: Logged in as: Dev Ground Zero#4194
-2023-11-04 22:16:58,286 [INFO]: Running on: Windows 10 (10.0.22621)
-2023-11-04 22:16:58,286 [INFO]: Python: 3.10.0
-2023-11-04 22:16:58,286 [INFO]: Bot is ready!
-2023-11-04 22:16:58,463 [INFO]: Loaded Extension: moderation
-2023-11-04 22:16:58,465 [INFO]: Loaded Extension: ping
-2023-11-04 22:16:58,467 [INFO]: Loaded Extension: welcome
-2023-11-04 22:19:03,074 [WARNING]: PyNaCl is not installed, voice will NOT be supported
-2023-11-04 22:19:03,075 [INFO]: logging in using static token
-2023-11-04 22:19:03,481 [INFO]: Shard ID None has sent the IDENTIFY payload.
-2023-11-04 22:19:03,715 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-crbn",{"micros":128762,"calls":["id_created",{"micros":1068,"calls":[]},"session_lookup_time",{"micros":4849,"calls":[]},"session_lookup_finished",{"micros":13,"calls":[]},"discord-sessions-prd-2-224",{"micros":122183,"calls":["start_session",{"micros":89135,"calls":["discord-api-5c74cfdfbf-w6sth",{"micros":82123,"calls":["get_user",{"micros":10533},"get_guilds",{"micros":7125},"send_scheduled_deletion_message",{"micros":9},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":37}]}]},"starting_guild_connect",{"micros":65,"calls":[]},"presence_started",{"micros":448,"calls":[]},"guilds_started",{"micros":141,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":32337,"calls":[]},"connect_finished",{"micros":32342,"calls":[]},"build_ready",{"micros":21,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":28,"calls":[]}]}]}] (Session ID: c4380b501d31f81b48ac1d94a1214f83). Resume URL specified as wss://gateway-us-east1-c.discord.gg
-2023-11-04 22:19:05,731 [INFO]: Logged in as: Dev Ground Zero#4194
-2023-11-04 22:19:05,732 [INFO]: Running on: Windows 10 (10.0.22621)
-2023-11-04 22:19:05,732 [INFO]: Python: 3.10.0
-2023-11-04 22:19:05,732 [INFO]: Bot is ready!
-2023-11-04 22:19:05,953 [INFO]: Loaded Extension: moderation
-2023-11-04 22:19:05,963 [INFO]: Loaded Extension: ping
-2023-11-04 22:19:05,965 [INFO]: Loaded Extension: welcome
+2023-11-04 22:24:01,526 [WARNING]: PyNaCl is not installed, voice will NOT be supported
+2023-11-04 22:24:01,526 [INFO]: logging in using static token
+2023-11-04 22:24:01,927 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2023-11-04 22:24:02,113 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-09jm",{"micros":88830,"calls":["id_created",{"micros":733,"calls":[]},"session_lookup_time",{"micros":392,"calls":[]},"session_lookup_finished",{"micros":17,"calls":[]},"discord-sessions-prd-2-94",{"micros":87130,"calls":["start_session",{"micros":47308,"calls":["discord-api-5c74cfdfbf-xbmmz",{"micros":43032,"calls":["get_user",{"micros":7986},"get_guilds",{"micros":5124},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":11}]}]},"starting_guild_connect",{"micros":62,"calls":[]},"presence_started",{"micros":311,"calls":[]},"guilds_started",{"micros":122,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":39262,"calls":[]},"connect_finished",{"micros":39269,"calls":[]},"build_ready",{"micros":19,"calls":[]},"clean_ready",{"micros":2,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":35,"calls":[]}]}]}] (Session ID: 7c73aaee1cb279d8b1251dde6296c6ff). Resume URL specified as wss://gateway-us-east1-b.discord.gg
+2023-11-04 22:24:04,142 [INFO]: Logged in as: Dev Ground Zero#4194
+2023-11-04 22:24:04,142 [INFO]: Running on: Windows 10 (10.0.22621)
+2023-11-04 22:24:04,142 [INFO]: Python: 3.10.0
+2023-11-04 22:24:04,143 [INFO]: Bot is ready!
+2023-11-04 22:24:04,375 [INFO]: Loaded Extension: moderation
+2023-11-04 22:24:04,377 [INFO]: Loaded Extension: ping
+2023-11-04 22:24:04,378 [INFO]: Loaded Extension: welcome
+2023-11-04 22:47:29,279 [WARNING]: PyNaCl is not installed, voice will NOT be supported
+2023-11-04 22:47:29,279 [INFO]: logging in using static token
+2023-11-04 22:47:29,651 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2023-11-04 22:47:29,888 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-9fg9",{"micros":113372,"calls":["id_created",{"micros":1655,"calls":[]},"session_lookup_time",{"micros":304,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-2-38",{"micros":109904,"calls":["start_session",{"micros":59724,"calls":["discord-api-5c74cfdfbf-8ztj5",{"micros":54642,"calls":["get_user",{"micros":13473},"get_guilds",{"micros":5854},"send_scheduled_deletion_message",{"micros":12},"guild_join_requests",{"micros":543},"authorized_ip_coro",{"micros":13}]}]},"starting_guild_connect",{"micros":64,"calls":[]},"presence_started",{"micros":41699,"calls":[]},"guilds_started",{"micros":83,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":8272,"calls":[]},"connect_finished",{"micros":8278,"calls":[]},"build_ready",{"micros":22,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":30,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 5674f0a3b50021d713d0378b6f7eb3a8). Resume URL specified as wss://gateway-us-east1-c.discord.gg
+2023-11-04 22:47:31,911 [INFO]: Logged in as: Dev Ground Zero#4194
+2023-11-04 22:47:31,911 [INFO]: Running on: Windows 10 (10.0.22621)
+2023-11-04 22:47:31,912 [INFO]: Python: 3.10.0
+2023-11-04 22:47:31,912 [INFO]: Bot is ready!
+2023-11-04 22:47:32,151 [INFO]: Loaded Extension: moderation
+2023-11-04 22:47:32,154 [INFO]: Loaded Extension: ping
+2023-11-04 22:47:32,157 [INFO]: Loaded Extension: welcome
+2023-11-04 23:03:33,849 [WARNING]: PyNaCl is not installed, voice will NOT be supported
+2023-11-04 23:03:33,850 [INFO]: logging in using static token
+2023-11-04 23:03:34,406 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2023-11-04 23:03:34,632 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-x3fr",{"micros":123680,"calls":["id_created",{"micros":958,"calls":[]},"session_lookup_time",{"micros":1284,"calls":[]},"session_lookup_finished",{"micros":14,"calls":[]},"discord-sessions-prd-2-199",{"micros":119743,"calls":["start_session",{"micros":76943,"calls":["discord-api-5c74cfdfbf-f4x6x",{"micros":71247,"calls":["get_user",{"micros":7544},"get_guilds",{"micros":7460},"send_scheduled_deletion_message",{"micros":13},"guild_join_requests",{"micros":344},"authorized_ip_coro",{"micros":12}]}]},"starting_guild_connect",{"micros":78,"calls":[]},"presence_started",{"micros":40475,"calls":[]},"guilds_started",{"micros":124,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":2072,"calls":[]},"connect_finished",{"micros":2077,"calls":[]},"build_ready",{"micros":20,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":23,"calls":[]}]}]}] (Session ID: fcc3b19ecc4f71628414e94105cfa2c2). Resume URL specified as wss://gateway-us-east1-b.discord.gg
+2023-11-04 23:03:36,679 [INFO]: Logged in as: Dev Ground Zero#4194
+2023-11-04 23:03:36,679 [INFO]: Running on: Windows 10 (10.0.22621)
+2023-11-04 23:03:36,679 [INFO]: Python: 3.10.0
+2023-11-04 23:03:36,679 [INFO]: Bot is ready!
+2023-11-04 23:03:36,894 [INFO]: Loaded Extension: moderation
+2023-11-04 23:03:36,896 [INFO]: Loaded Extension: ping
+2023-11-04 23:03:36,897 [INFO]: Loaded Extension: welcome
