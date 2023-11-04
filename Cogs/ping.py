@@ -14,6 +14,10 @@ class Ping(commands.Cog):
         self.client = client
         self.dgz_member_role_id = int(os.getenv('DGZ_MEMBER_ROLE_ID'))
         
+    @commands.Cog.listener()
+    async def on_ready(self):
+        print(f'{Fore.GREEN}Ping Cog is ready!{Style.RESET_ALL}')  
+        
     @nextcord.slash_command(name='ping', description='Check the bot\'s ping.', guild_ids=[int(os.getenv('GUILD_ID'))])
     @application_checks.has_role('DGZ Members')
     async def ping(self, interaction: nextcord.Interaction):

@@ -25,6 +25,18 @@ class DevGroundZeroBot(commands.Bot):
         super().__init__(command_prefix='!', intents=nextcord.Intents.all(), help_command=None)
         self.guild_id = int(os.getenv('GUILD_ID'))
         
+        # Load all cogs from the Cogs directory
+        for filename in os.listdir('./Cogs'):
+            if filename.endswith('.py'):
+                try:
+                    self.load_extension(f'Cogs.{filename[:-3]}')
+                    print(f'{Fore.GREEN}Loaded Extension: {filename[:-3]}{Style.RESET_ALL}')
+                    print(f'{Fore.BLUE}==============================={Style.RESET_ALL}')
+                    logging.info(f'Loaded Extension: {filename[:-3]}')
+                except Exception as e:
+                    print(f'{Fore.RED}Failed to load Extension: {filename[:-3]}{Style.RESET_ALL}')
+                    logging.error(f'Failed to load Extension: {filename[:-3]}: {str(e)}')
+        
     async def on_ready(self):
         # Print bot information to the console when the bot is ready
         print(f'{Fore.GREEN}Logged in as: {self.user.name}#{self.user.discriminator}{Style.RESET_ALL}')
@@ -53,17 +65,5 @@ class DevGroundZeroBot(commands.Bot):
         # Set the bot's presence (activity)
         await self.change_presence(activity=nextcord.Activity(type=nextcord.ActivityType.watching, name='The DevGroundZero Discord!'))
                 
-        # Load all cogs from the Cogs directory
-        for filename in os.listdir('./Cogs'):
-            if filename.endswith('.py'):
-                try:
-                    self.load_extension(f'Cogs.{filename[:-3]}')
-                    print(f'{Fore.GREEN}Loaded Extension: {filename[:-3]}{Style.RESET_ALL}')
-                    print(f'{Fore.BLUE}==============================={Style.RESET_ALL}')
-                    logging.info(f'Loaded Extension: {filename[:-3]}')
-                except Exception as e:
-                    print(f'{Fore.RED}Failed to load Extension: {filename[:-3]}{Style.RESET_ALL}')
-                    logging.error(f'Failed to load Extension: {filename[:-3]}: {str(e)}')
-        
 client = DevGroundZeroBot()
 client.run(os.getenv('BOT_TOKEN'))
