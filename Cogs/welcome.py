@@ -31,7 +31,6 @@ class Welcome(commands.Cog):
                                        description=f'Please read the rules in {rules_channel.mention} and enjoy your stay!',
                                        color=nextcord.Color.dark_green())
         welcome_embed.add_field(name='Member Count:', value=f'{member.guild.member_count}', inline=False)
-        welcome_embed.set_thumbnail(url=member.avatar.url)
         await welcome_channel.send(embed=welcome_embed)
         
 def setup(client):
