@@ -16,6 +16,11 @@ class Welcome(commands.Cog):
         self.dgz_member_role_id = int(os.getenv('DGZ_MEMBER_ROLE_ID'))
         
     @commands.Cog.listener()
+    async def on_ready(self):
+        print(f'{Fore.GREEN}Welcome Cog is ready!{Style.RESET_ALL}')
+        print(f'{Fore.BLUE}==============================={Style.RESET_ALL}')
+        
+    @commands.Cog.listener()
     async def on_member_join(self, member):
         # Welcome the new member and add the role
         welcome_channel = self.client.get_channel(self.welcome_channel_id)

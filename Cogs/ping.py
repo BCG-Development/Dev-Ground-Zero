@@ -16,7 +16,8 @@ class Ping(commands.Cog):
         
     @commands.Cog.listener()
     async def on_ready(self):
-        print(f'{Fore.GREEN}Ping Cog is ready!{Style.RESET_ALL}')  
+        print(f'{Fore.GREEN}Ping Cog is ready!{Style.RESET_ALL}')
+        print(f'{Fore.BLUE}==============================={Style.RESET_ALL}')
         
     @nextcord.slash_command(name='ping', description='Check the bot\'s ping.', guild_ids=[int(os.getenv('GUILD_ID'))])
     @application_checks.has_role('DGZ Members')
