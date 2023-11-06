@@ -1,7 +1,6 @@
 import os
 import nextcord
 from nextcord.ext import commands, application_checks
-from nextcord import Interaction
 from colorama import init, Fore, Style
 from dotenv import load_dotenv
 

@@ -39,14 +39,14 @@ class DevGroundZeroBot(commands.Bot):
         
     async def on_ready(self):
         # Print bot information to the console when the bot is ready
-        print(f'{Fore.GREEN}Logged in as: {self.user.name}#{self.user.discriminator}{Style.RESET_ALL}')
+        print(f'{Fore.RED}Logged in as: {self.user.name}#{self.user.discriminator}{Style.RESET_ALL}')
         logging.info(f'Logged in as: {self.user.name}#{self.user.discriminator}')
-        print(f'{Fore.GREEN}Running on: {platform.system()} {platform.release()} ({platform.version()}){Style.RESET_ALL}')
+        print(f'{Fore.RED}Running on: {platform.system()} {platform.release()} ({platform.version()}){Style.RESET_ALL}')
         logging.info(f'Running on: {platform.system()} {platform.release()} ({platform.version()})')
-        print(f'{Fore.GREEN}Python: {platform.python_version()}{Style.RESET_ALL}')
+        print(f'{Fore.RED}Python: {platform.python_version()}{Style.RESET_ALL}')
         logging.info(f'Python: {platform.python_version()}')
-        print(f'{Fore.GREEN}Nextcord: {nextcord.__version__}{Style.RESET_ALL}')
-        print(f'{Fore.GREEN}Bot is ready!{Style.RESET_ALL}')
+        print(f'{Fore.RED}Nextcord: {nextcord.__version__}{Style.RESET_ALL}')
+        print(f'{Fore.RED}Bot is ready!{Style.RESET_ALL}')
         logging.info('Bot is ready!')
         print(f'{Fore.BLUE}==============================={Style.RESET_ALL}')
         
