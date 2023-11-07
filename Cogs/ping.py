@@ -29,7 +29,7 @@ class Ping(commands.Cog):
     @ping.error
     async def ping_error(self, interaction: nextcord.Interaction, error: application_checks.ApplicationMissingRole):
         ping_error_embed = nextcord.Embed(title='Error!', description='You do not have the required role to use this command.', color=nextcord.Color.dark_red())
-        ping_error_embed.add_field(name='Required Role:', value=f'<@&{self.dgz_member_role_id}>', inline=False)
+        ping_error_embed.add_field(name='Required Role\'s:', value=f'<@&{self.dgz_member_role_id}>', inline=False)
         ping_error_embed.add_field(name=str(error), value='Please contact a staff member.', inline=False)
         ping_error_embed.set_thumbnail(url=self.client.user.avatar.url)
         await interaction.response.send_message(embed=ping_error_embed, ephemeral=True, delete_after=5)

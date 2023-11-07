@@ -16,6 +16,8 @@
 
 - [ ] `database` - Add a user database to store user information when they join, such as their username, discriminator, and ID
 
+- [ ] `warn, kick, ban` - Add server database's to store information about warnings, kicks, and bans, such as the user's ID, the moderator's ID, the reason, and the date
+
 ## TODO - Levels
 
 - [ ] `levels` - Add a leveling system to the bot, this will give users XP when they send messages and level them up when they reach a certain amount of XP

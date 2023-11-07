@@ -1,5 +1,6 @@
 import logging
 import os
+import json
 import platform
 import nextcord
 from nextcord.ext import commands
@@ -12,12 +13,14 @@ init()
 # Load environment variables from a .env file
 load_dotenv()
 
-# Create a Logs directory if it doesn't exist
-if not os.path.exists("Logs"):
-    os.makedirs("Logs")
+# Create a Logs directory if it doesn't exist and another directory inside of it called "Logs"
+if not os.path.exists('Logs'):
+    os.makedirs('Logs')
     
 # Configure logging to write log messages to a file
-logging.basicConfig(filename='Logs/bot.log', level=logging.INFO, format='%(asctime)s [%(levelname)s]: %(message)s')
+bot_log_file_path = 'Logs/bot.log'
+
+logging.basicConfig(filename=bot_log_file_path, level=logging.INFO, format='%(asctime)s %(levelname)s %(name)s %(message)s')
 
 # Define a custom bot class that inherits from commands.Bot
 class DevGroundZeroBot(commands.Bot):

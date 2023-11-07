@@ -1,0 +1,12 @@
+2023-11-07 11:27:13,484 WARNING nextcord.client PyNaCl is not installed, voice will NOT be supported
+2023-11-07 11:27:13,494 INFO root Loaded Extension: moderation
+2023-11-07 11:27:13,497 INFO root Loaded Extension: ping
+2023-11-07 11:27:13,501 INFO root Loaded Extension: rules
+2023-11-07 11:27:13,504 INFO root Loaded Extension: welcome
+2023-11-07 11:27:13,504 INFO nextcord.client logging in using static token
+2023-11-07 11:27:13,972 INFO nextcord.gateway Shard ID None has sent the IDENTIFY payload.
+2023-11-07 11:27:14,285 INFO nextcord.gateway Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-w44j",{"micros":208724,"calls":["id_created",{"micros":1024,"calls":[]},"session_lookup_time",{"micros":14337,"calls":[]},"session_lookup_finished",{"micros":17,"calls":[]},"discord-sessions-prd-2-172",{"micros":193040,"calls":["start_session",{"micros":113840,"calls":["discord-api-66bb5d794b-xm9mr",{"micros":104547,"calls":["get_user",{"micros":30153},"get_guilds",{"micros":11282},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":9}]}]},"starting_guild_connect",{"micros":55,"calls":[]},"presence_started",{"micros":25559,"calls":[]},"guilds_started",{"micros":100,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":53441,"calls":[]},"connect_finished",{"micros":53446,"calls":[]},"build_ready",{"micros":17,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":21,"calls":[]}]}]}] (Session ID: d7888ba85b4062bd17baebbbb0f4d0a4). Resume URL specified as wss://gateway-us-east1-b.discord.gg
+2023-11-07 11:27:16,316 INFO root Logged in as: Dev Ground Zero#4194
+2023-11-07 11:27:16,317 INFO root Running on: Windows 10 (10.0.22621)
+2023-11-07 11:27:16,317 INFO root Python: 3.10.0
+2023-11-07 11:27:16,318 INFO root Bot is ready!
