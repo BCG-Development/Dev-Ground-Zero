@@ -11,16 +11,3 @@
 2023-11-08 11:24:48,879 INFO root Running on: Windows 10 (10.0.22621)
 2023-11-08 11:24:48,879 INFO root Python: 3.10.0
 2023-11-08 11:24:48,879 INFO root Bot is ready!
-2023-11-08 11:25:49,002 WARNING nextcord.client PyNaCl is not installed, voice will NOT be supported
-2023-11-08 11:25:49,019 INFO root Loaded Extension: blackjack
-2023-11-08 11:25:49,023 INFO root Loaded Extension: moderation
-2023-11-08 11:25:49,025 INFO root Loaded Extension: ping
-2023-11-08 11:25:49,029 INFO root Loaded Extension: rules
-2023-11-08 11:25:49,031 INFO root Loaded Extension: welcome
-2023-11-08 11:25:49,031 INFO nextcord.client logging in using static token
-2023-11-08 11:25:49,458 INFO nextcord.gateway Shard ID None has sent the IDENTIFY payload.
-2023-11-08 11:25:49,674 INFO nextcord.gateway Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-954h",{"micros":117090,"calls":["id_created",{"micros":1032,"calls":[]},"session_lookup_time",{"micros":1032,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-2-129",{"micros":113583,"calls":["start_session",{"micros":57552,"calls":["discord-api-765bd59c4d-dvgcm",{"micros":54284,"calls":["get_user",{"micros":10733},"get_guilds",{"micros":16558},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":147},"authorized_ip_coro",{"micros":7}]}]},"starting_guild_connect",{"micros":57,"calls":[]},"presence_started",{"micros":242,"calls":[]},"guilds_started",{"micros":102,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":55558,"calls":[]},"connect_finished",{"micros":55564,"calls":[]},"build_ready",{"micros":31,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":31,"calls":[]}]}]}] (Session ID: a825127af70888ef43b0e9177e6dab8c). Resume URL specified as wss://gateway-us-east1-d.discord.gg
-2023-11-08 11:25:51,676 INFO root Logged in as: Dev Ground Zero#4194
-2023-11-08 11:25:51,676 INFO root Running on: Windows 10 (10.0.22621)
-2023-11-08 11:25:51,676 INFO root Python: 3.10.0
-2023-11-08 11:25:51,677 INFO root Bot is ready!
